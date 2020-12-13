@@ -14,17 +14,27 @@ body {
 @keyframes myanimation {
   0% {
     background: white;
+    left: 0px;
+    top: 0px;
   }
   25% {
     background: red;
+    left: 300px;
+    top: 0px;
   }
   50% {
     background: green;
+    left: 300px;
+    top: 300px;
   }
   75% {
     background: blue;
+    left: 0px;
+    top: 300px;
   }
   100% {
     background: white;
+    left: 0px;
+    top: 0px;
   }
 }
