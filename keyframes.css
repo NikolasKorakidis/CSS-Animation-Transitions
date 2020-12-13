@@ -9,6 +9,10 @@ body {
   position: relative;
   animation-name: myanimation;
   animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes myanimation {
